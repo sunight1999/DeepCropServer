@@ -1,0 +1,18 @@
+﻿  소스의 유효성을 검사하는 중
+  소스를 '172.23.203.129'(으)로 원격으로 복사하는 중
+  아키텍처의 유효성을 검사하는 중
+  아키텍처의 유효성을 검사하는 중
+  원격 빌드를 시작하는 중
+  소스를 컴파일하는 중:
+  main.cpp
+C:\work\univ\cpp\DeepCropServer\DeepCropServer\main.cpp(60,19): warning : conversion from 'ssize_t' {aka 'long int'} to 'int' may change value [-Wconversion]
+C:\work\univ\cpp\DeepCropServer\DeepCropServer\main.cpp(60,19): warning :    60 |     valread = read(client, buffer, bufferLength);
+C:\work\univ\cpp\DeepCropServer\DeepCropServer\main.cpp(60,19): warning :       |               ~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\work\univ\cpp\DeepCropServer\DeepCropServer\main.cpp(13,25): warning : variable 'valread' set but not used [-Wunused-but-set-variable]
+C:\work\univ\cpp\DeepCropServer\DeepCropServer\main.cpp(13,25): warning :    13 |     int server, client, valread;
+C:\work\univ\cpp\DeepCropServer\DeepCropServer\main.cpp(13,25): warning :       |                         ^~~~~~~
+C:\work\univ\cpp\DeepCropServer\DeepCropServer\main.cpp(20,11): warning : unused variable 'res' [-Wunused-variable]
+C:\work\univ\cpp\DeepCropServer\DeepCropServer\main.cpp(20,11): warning :    20 |     char* res = realpath(".", path);
+C:\work\univ\cpp\DeepCropServer\DeepCropServer\main.cpp(20,11): warning :       |           ^~~
+  개체를 연결하는 중
+  DeepCropServer.vcxproj -> C:\work\univ\cpp\DeepCropServer\DeepCropServer\bin\x64\Debug\DeepCropServer.out
